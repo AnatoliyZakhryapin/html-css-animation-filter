@@ -68,3 +68,13 @@
     border-radius: 20px;
 }
 
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: saturate(35%) sepia(35%);
+    border-radius: 20px;
+    scale: 1.5;
+}
+
