@@ -7,9 +7,19 @@
 }
 
 .ex-2-square {
-    transition: 10s;
+    transition: 2s;
 }
 
 .ex-2-square:active {
     width: 100%;
+}
+
+.ex-3-square {
+    transition: 5s;
+    transition-delay: 0s;
+
+}
+
+.ex-3-square:hover {
+    border-radius: 999px;
 }
