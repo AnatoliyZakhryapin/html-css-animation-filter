@@ -117,4 +117,39 @@
     animation-timing-function: linear;
 }
 
+@keyframes ex-12-top {
+    0% {
+        left: 10%;
+    }
+   50% {
+        left: 140px;
+    }
+    100% {
+        left: 10%;
+    }
+}
 
+a.ex-12-button:hover .ex-12-top-white {
+    animation: ex-12-top;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes ex-12-bottom {
+    0% {
+        right: 20%;
+    }
+   50% {
+        right: 140px;
+    }
+    100% {
+        right: 20%;
+    }
+}
+ 
+a.ex-12-button:hover .ex-12-bottom-white 
+{
+    animation: ex-12-bottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
