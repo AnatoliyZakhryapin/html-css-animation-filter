@@ -153,3 +153,69 @@ a.ex-12-button:hover .ex-12-bottom-white
     animation-duration: 2s;
     animation-timing-function: linear;
 }
+
+@keyframes ex-13-top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    35% {
+        left: 170px;
+        top: -10px;
+    }
+    50% {
+        left: 170px;
+        top: 60px;
+    }
+    80% {
+        left: -30px;
+        top: 60px;
+    }
+    90% {
+        left: 0px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+a.ex-13-button:hover .ex-13-top-white {
+    animation: ex-13-top;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+@keyframes ex-13-bottom {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+    35% {
+        right: 170px;
+        bottom: -10px;
+    }
+    50% {
+        right: 170px;
+        bottom: 60px;
+    }
+    80% {
+        right: 0px;
+        bottom: 60px;
+    }
+    90% {
+        right: 0px;
+        bottom: -10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+}
+
+a.ex-13-button:hover .ex-13-bottom-white {
+    animation: ex-13-bottom;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
